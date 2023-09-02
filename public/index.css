@@ -1,0 +1,77 @@
+.main{
+    /* border:2px solid red; */
+    height:100vh;
+}
+.img{
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Wallpaper-HD.jpg");
+    height:60vh;
+    background-position: 0%;
+    /* border:2px solid orange; */
+} 
+*{
+    margin:0;
+    padding:0;
+}
+.img{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Gmail{
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+.Gmail>input{
+    margin-right: 1%;
+    font-size:1.2vw;
+}
+.heading{
+    color:white;
+    margin-left:6%;
+    /* border:2px solid red; */
+    width:30%;
+    margin-bottom: 2%;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.Gmail>button{
+    padding:.0.8%;
+    border-radius: 10%;
+    font-size: 1.2vw;
+}
+.heading1{
+    width:30%;
+    position:absolute;
+    left:6%;
+    /* border:2px solid red; */
+}
+.heading1>p{
+    font-size:1.5vw;
+}
+.img1>img{
+    width:40%;
+    height:65%;
+    margin-left: 50%;
+}
+.com1{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+@media(max-width:600px){
+    .heading1{
+        width:70%;
+        margin-left:5%;
+    }
+    .heading1>p{
+        font-size:3vw;
+    }
+    .img1>img{
+        width:80%;
+        height:59%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
